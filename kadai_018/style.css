@@ -1,0 +1,80 @@
+/* div要素（id名「top」）に対する装飾 */
+#top {
+    width: 800px;
+    background-color: #dcc9f4;
+    margin: 20px auto;
+    text-align: center;
+}
+/* p要素（class名「top-child」）に対する装飾 */
+.top-child {
+    width: 20%;
+    background-color: #ffd9df;
+    display: inline-block;
+}
+
+/* div要素（id名「middle」）に対する装飾 */
+#middle {
+    width: 800px;
+    height: 800px;
+    margin: 20px auto;
+    background-color: #ffd9df ;
+    position: relative;
+}
+/* div要素（id名「middle-child01」「middle-child02」「middle-child03」）
+に対する共通の装飾とそれぞれの位置の指定 */
+#middle-child01 {
+    width: 200px;
+    height: 200px;
+    background-color: #87ceeb;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#middle-child02 {
+    width: 200px;
+    height: 200px;
+    background-color: #87ceeb;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+#middle-child03 {
+    width: 200px;
+    height: 200px;
+    background-color: #87ceeb;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+
+/* div要素（id名「bottom」）に対する装飾 */
+#bottom {
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    background-color: #87ceeb;
+    position: relative;
+}
+
+/* div要素（id名「bottom-child01」「bottom-child02」「bottom-child03」）
+に対する共通の装飾 */
+#bottom-child01 {
+    width: 400px;
+    height: 100px;
+    background-color: #e5dcf0;
+}
+#bottom-child02 {
+    width: 400px;
+    height: 100px;
+    background-color: #e5dcf0;
+    position: absolute;
+    left: 200px;
+}
+#bottom-child03 {
+    width: 400px;
+    height: 100px;
+    background-color: #e5dcf0;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
